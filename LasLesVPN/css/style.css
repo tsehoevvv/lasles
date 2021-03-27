@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    margin-right: 40px;
+}
+.header-link{
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+    margin-right: 30px;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.header-button{
+    padding: 13px 45px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.header-button:hover{
+    background-color: #e0b4ba;
+}
+.main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-title{
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+.main-descr{
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 50px;
+}
+.main-button{
+    padding: 17px 77px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    border-radius: 10px;
+}
+.user{
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+.user-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-block{
+    display: flex;
+    align-items: center;
+}
+.user-image{
+    margin-right: 36px;
+}
+.user-title{
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.user-descr{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
